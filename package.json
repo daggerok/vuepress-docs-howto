@@ -22,6 +22,7 @@
   "homepage": "https://github.com/daggerok/vuepress-docs-how-too#readme",
   "devDependencies": {
     "cross-env": "5.2.1",
+    "markdown-it-vuepress-code-snippet-enhanced": "1.0.1",
     "vuepress": "1.0.4"
   }
 }
