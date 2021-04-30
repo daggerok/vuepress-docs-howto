@@ -32,7 +32,7 @@ vi .vuepress/config.js
 
 ## VuePress docs
 
-@[code lang=bash](@/code-snippet.sh)
+@[code transcludeWith=::include lang=bash](@/code-snippet.sh)
 
 open http://localhost:5000/
 
