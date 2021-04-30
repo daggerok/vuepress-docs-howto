@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vuepress dev --port 5000 .",
     "build": "vuepress build --no-cache .",
-    "gh-pages": "cross-env BASE_HREF='/vuepress-docs-how-too/' npm run build",
+    "gh-pages": "cross-env BASE='/vuepress-docs-how-too/' npm run build",
     "test": "npm run build"
   },
   "repository": {
