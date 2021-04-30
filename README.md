@@ -1,3 +1,9 @@
+---
+hero: true
+footer: Made by Maksim Kostromin with ❤️ 🤘
+
+---
+
 # vuepress-docs-how-too [![GitHub actions](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml)
 
 Quick and fast rapid VuePress documentation development
@@ -7,6 +13,8 @@ Quick and fast rapid VuePress documentation development
 ## Table of Content
 * [VuePress docs](#vuepress-docs)
 -->
+
+[[toc]]
 
 ## Bootstrap new project
 
