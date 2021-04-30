@@ -27,7 +27,7 @@ wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip |
 mv vuepress-docs-how-too my-new-project
 cd my-new-project/
 # find and replace: vuepress-docs-how-too -> my-new-project
-# such as: BASE_HREF='/my-new-project/'
+# such as: BASE='/my-new-project/'
 vi package.json
 vi .vuepress/config.js
 ```
