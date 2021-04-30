@@ -1,6 +1,7 @@
 const base = process.env.BASE || '/';
 
 module.exports = {
+    base,
     title: 'VuePress howto',
     /**
      * Extra tags to be injected to the page HTML `<head>`
@@ -13,7 +14,8 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'icon', href: '/favicon.ico' }],
     ],
-    base,
+    extend: '@vuepress/theme-default',
+    theme: 'default-prefers-color-scheme',
     themeConfig: {
         repo: 'daggerok/vuepress-docs-how-too',
     },
