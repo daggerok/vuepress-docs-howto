@@ -1,5 +1,5 @@
 # vuepress-docs-how-too
-Quick and fast rapid VuePress documentation development [![Build Status](https://travis-ci.org/daggerok/vuepress-docs-how-too.svg?branch=master)](https://travis-ci.org/daggerok/vuepress-docs-how-too)
+Quick and fast rapid VuePress documentation development [![GitHub actions](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml)
 
 [[toc]]
 
@@ -18,8 +18,9 @@ wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip |
 # jar -xvf <(curl -sL https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip)
 mv vuepress-docs-how-too my-new-project
 cd my-new-project/
-# BASE_HREF'/my-new-project/'
+# find and replace: vuepress-docs-how-too -> my-new-project
 vi package.json
+# BASE_HREF='/my-new-project/'
 vi .vuepress/config.js
 # git init
 # ...
