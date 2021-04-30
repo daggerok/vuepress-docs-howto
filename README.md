@@ -1,5 +1,5 @@
 ---
-hero: true
+home: true
 footer: Made by Maksim Kostromin with ❤️ 🤘
 
 ---
