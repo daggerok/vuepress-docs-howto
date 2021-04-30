@@ -32,11 +32,7 @@ vi .vuepress/config.js
 
 ## VuePress docs
 
-```bash
-# npm i
-npm run build
-npx serve .vuepress/dist/
-```
+@[code lang=bash](@/code-snippet.sh)
 
 open http://localhost:5000/
 
