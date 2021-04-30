@@ -1,6 +1,6 @@
-# vuepress-docs-how-too
-Quick and fast rapid VuePress documentation development [![GitHub actions](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml)
+# vuepress-docs-how-too [![GitHub actions](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-docs-how-too/actions/workflows/ci.yaml)
 
+Quick and fast rapid VuePress documentation development
 [[toc]]
 
 <!--
