@@ -14,8 +14,6 @@ Quick and fast rapid VuePress documentation development
 * [VuePress docs](#vuepress-docs)
 -->
 
-[[toc]]
-
 ## Bootstrap new project
 
 Start from documentation:
