@@ -1,5 +1,6 @@
 const baseHref = !!process.env.BASE_HREF ? process.env.BASE_HREF : '/';
 module.exports = {
+    title: 'VuePress howto',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
