@@ -25,8 +25,8 @@ wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip |
 mkdir /tmp/1 && wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip | tar xvf - -C $_
 # tar -xvf <(curl -sL https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip)
 # jar -xvf <(curl -sL https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip)
-mv vuepress-docs-how-too my-new-project
-cd my-new-project/
+mv /tmp/1/vuepress-docs-how-too-master /tmp/my-new-project
+cd /tmp/my-new-project
 # find and replace: vuepress-docs-how-too -> my-new-project
 # such as: BASE='/my-new-project/'
 vi package.json
