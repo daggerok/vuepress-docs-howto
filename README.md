@@ -45,7 +45,7 @@ open [http://localhost:8080/](http://localhost:8080/) url
 
 ## Publish via CI
 
-Checkout `.github/workflows/ci.yaml` file to know how easily you can deploy your VuePress docs on GitHub Pages:
+Checkout `.github/workflows/ci.yaml` file to see how easily you can deploy your VuePress docs on GitHub Pages:
 
 @[code transcludeWith=::include lang=yaml](@/.github/workflows/ci.yaml)
 
