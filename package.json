@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-docs-how-too",
+  "name": "vuepress-docs-howto",
   "version": "1.0.0",
   "description": "Quick and fast rapid VuePress documentation development",
   "main": "index.js",
@@ -7,20 +7,20 @@
     "start": "npm run dev",
     "dev": "vuepress dev --no-clear-screen .",
     "build": "vuepress build --no-cache .",
-    "gh-pages": "cross-env BASE='/vuepress-docs-how-too/' npm run build",
+    "gh-pages": "cross-env BASE='/vuepress-docs-howto/' npm run build",
     "test": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daggerok/vuepress-docs-how-too.git"
+    "url": "git+https://github.com/daggerok/vuepress-docs-howto.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daggerok/vuepress-docs-how-too/issues"
+    "url": "https://github.com/daggerok/vuepress-docs-howto/issues"
   },
-  "homepage": "https://github.com/daggerok/vuepress-docs-how-too#readme",
+  "homepage": "https://github.com/daggerok/vuepress-docs-howto#readme",
   "devDependencies": {
     "cross-env": "7.0.3",
     "markdown-it-vuepress-code-snippet-enhanced": "1.0.1",

@@ -17,7 +17,7 @@ module.exports = {
     extend: '@vuepress/theme-default',
     theme: 'default-prefers-color-scheme',
     themeConfig: {
-        repo: 'daggerok/vuepress-docs-how-too',
+        repo: 'daggerok/vuepress-docs-howto',
     },
     markdown: {
         extendMarkdown: md => {
