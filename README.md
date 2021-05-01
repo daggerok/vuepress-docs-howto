@@ -35,7 +35,11 @@ vi .vuepress/config.js
 
 ## Build and serve
 
-@[code transcludeWith=::include lang=bash](@/code-snippet.sh)
+```sh
+# npm i -E
+npm run build
+npx serve .vuepress/dist/
+```
 
 open [http://localhost:8080/](http://localhost:8080/) url
 
