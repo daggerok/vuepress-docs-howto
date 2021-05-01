@@ -16,7 +16,7 @@ Quick and fast rapid VuePress documentation development
 * [VuePress docs](#vuepress-docs)
 -->
 
-## Quickstrat new project
+## Quickstart new project
 
 Start from documentation:
 
