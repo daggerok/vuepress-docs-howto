@@ -7,12 +7,14 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  # end::include[]
   workflow_dispatch:
     inputs:
       check-updates:
         description: 'Check Gradle versions updates'
         required: true
         default: '.'
+# tag::include[]
 jobs:
   # end::include[]
   dependency-updates:
