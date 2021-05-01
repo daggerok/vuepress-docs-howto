@@ -1,5 +1,7 @@
 ---
 home: true
+heroText: VuePress
+tagline: Quickstart
 footer: Made by Maksim Kostromin with ❤️ 🤘
 
 ---
@@ -14,12 +16,13 @@ Quick and fast rapid VuePress documentation development
 * [VuePress docs](#vuepress-docs)
 -->
 
-## Bootstrap new project
+## Quickstrat new project
 
 Start from documentation:
 
 ```bash
 wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip | tar xvf -
+mkdir /tmp/1 && wget -qO- https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip | tar xvf - -C $_
 # tar -xvf <(curl -sL https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip)
 # jar -xvf <(curl -sL https://github.com/daggerok/vuepress-docs-how-too/archive/master.zip)
 mv vuepress-docs-how-too my-new-project
@@ -30,10 +33,16 @@ vi package.json
 vi .vuepress/config.js
 ```
 
-## VuePress docs
+## Build and serve
 
 @[code transcludeWith=::include lang=bash](@/code-snippet.sh)
 
-open http://localhost:5000/
+open [http://localhost:8080/](http://localhost:8080/) url
 
-Documentation is deployed on [GitHub Pages](https://daggerok.github.io/vuepress-docs-how-too/)
+## Publish via CI
+
+Checkout `.github/workflows/ci.yaml` file to know how easily you can deploy your VuePress docs on GitHub Pages:
+
+@[code transcludeWith=::include lang=yaml](@/.github/workflows/ci.yaml)
+
+That README.md documentation file is compiled and deployed on [GitHub Pages](https://daggerok.github.io/vuepress-docs-how-too/)
